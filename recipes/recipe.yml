@@ -21,6 +21,9 @@ modules:
     repos:
       copr:
         - atim/starship
+        - scottames/ghostty
+        - dejan/lazygit
+        - lihaohong/yazi
     install:
       packages:
         - micro
