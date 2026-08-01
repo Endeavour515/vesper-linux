@@ -15,10 +15,10 @@ dnf -y install --setopt=install_weak_deps=False \
 dnf -y copr enable bieszczaders/kernel-cachyos
 
 # Install CachyOS LTO kernel & akmods
-dnf -y install --setopt=install_weak_deps=False kernel-cachyos-rt
+dnf -y install --setopt=install_weak_deps=False kernel-cachyos
 
 
 # Manually build modules, run depmod & generate initramfs
-VER=$(ls /lib/modules) && \
-    depmod -a $VER && \
-    dracut --kver $VER --force --add ostree --no-hostonly --reproducible /usr/lib/modules/$VER/initramfs.img
+# VER=$(ls /lib/modules) && \
+#     depmod -a $VER && \
+#     dracut --kver $VER --force --add ostree --no-hostonly --reproducible /usr/lib/modules/$VER/initramfs.img
