@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - atim/starship
+        - lionheartp/Hyprland
     install:
       packages:
         - micro
