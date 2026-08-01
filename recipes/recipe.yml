@@ -30,7 +30,7 @@ modules:
         - micro
         - starship
         - niri
-        - noctalia-shell-v5
+        - noctalia-git
         - noctalia-greeter
         - ghostty
         - helix
@@ -45,7 +45,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
+      - notify: false # Send notification after install/uninstall is finished (true/false)
         scope: system
         # If no repo information is specified, Flathub will be used by default
         # install: # system flatpaks we want all users to have and not remove
