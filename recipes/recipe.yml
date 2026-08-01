@@ -24,12 +24,13 @@ modules:
         - scottames/ghostty
         - dejan/lazygit
         - lihaohong/yazi
+        - lionheartp/Hyprland
     install:
       packages:
         - micro
         - starship
         - niri
-        - noctalia
+        - noctalia-shell-v5
         - noctalia-greeter
         - ghostty
         - helix
