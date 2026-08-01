@@ -25,6 +25,9 @@ modules:
       packages:
         - micro
         - starship
+        - niri
+        - noctalia
+        - kitty
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
