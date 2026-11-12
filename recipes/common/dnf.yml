@@ -5,7 +5,6 @@ repos:
   files:
     - "https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo"
   copr:
-    - c0mpile/builds
     - atim/starship
     - scottames/ghostty
     - dejan/lazygit
