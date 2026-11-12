@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/os-release-v1.json
+---
+type: os-release
+properties:
+  ID: vesper
+  NAME: Vesper
+  PRETTY_NAME: Vesper
+  VARIANT_ID: vesper-nvidia-open
+  IMAGE_ID: vesper-nvidia-open
+  DEFAULT_HOSTNAME: vesper
+  HOME_URL: https://github.com/Endeavour515/vesper-linux
+  DOCUMENTATION_URL: https://github.com/Endeavour515/vesper-linux
+  SUPPORT_URL: https://github.com/Endeavour515/vesper-linux/issues
+  BUG_REPORT_URL: https://github.com/Endeavour515/vesper-linux/issues
+...
