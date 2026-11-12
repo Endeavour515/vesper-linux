@@ -7,7 +7,7 @@ description: Ublue with noctallia and Umbriel
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/blue-build/base-images/fedora-base-nvidia-open
-# image-version: stable # latest is also supported if you want new updates ASAP
+image-version: latest # latest is also supported if you want new updates ASAP
 
 labels:
   org.opencontainers.image.description: Vesper Linux
