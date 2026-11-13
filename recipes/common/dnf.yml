@@ -1,9 +1,9 @@
-# yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-v1.json
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-v2.json
 ---
 type: dnf
 repos:
   files:
-    - "https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo"
+    - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
     - https://negativo17.org/repos/fedora-steam.repo
   # copr:
   #   - c0mpile/builds
@@ -38,7 +38,6 @@ install:
     # - nix
     
     # Desktop
-    - pipewire-libs
     - steam
 
 
