@@ -2,7 +2,7 @@
 ---
 type: akmods
 base: ogc # if not specified, classic "main" base is used by default
-install:
-  - v4l2loopback
-  - xone
-  - xpadneo
+# install:
+#   - v4l2loopback
+#   - xone
+#   - xpadneo
