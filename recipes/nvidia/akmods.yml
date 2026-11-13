@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/os-release-v1.json
+---
+type: akmods
+base: ogc # if not specified, classic "main" base is used by default
+install:
+  - v4l2loopback
+  - xone
+  - xpadneo
+  - nvidia-open
