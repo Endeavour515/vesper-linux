@@ -32,7 +32,7 @@ install:
     # - nix
     
     # Desktop
-    - steam
+    # - steam
 
 
 remove:
