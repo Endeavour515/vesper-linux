@@ -12,7 +12,6 @@ repos:
     - https://repos.fyralabs.com/terra44/key.asc
   # nonfree: rpmfusion
 install:
-  install-weak-deps: false
   packages:
     # noctalia.dev
     # Umbriel (Window Manager), Noctalia (Shell), and greeter
