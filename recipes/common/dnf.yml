@@ -4,7 +4,6 @@ type: dnf
 repos:
   files:
     - "https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo"
-    - https://negativo17.org/repos/fedora-steam.repo
   # copr:
   #   - c0mpile/builds
    
@@ -37,6 +36,7 @@ install:
     # - nix
     
     # Desktop
+    - pipewire-libs
     - steam
 
 
