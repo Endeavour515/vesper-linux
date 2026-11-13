@@ -6,7 +6,6 @@ repos:
     - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
   keys:
     - https://repos.fyralabs.com/terra44/key.asc
-  nonfree: rpmfusion
 install:
   packages:
     # noctalia.dev
@@ -33,7 +32,7 @@ install:
     # - nix
     
     # Desktop
-    # - steam
+    - steam
 
 
 remove:
