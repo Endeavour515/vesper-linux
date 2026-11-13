@@ -9,5 +9,4 @@ install:
     - install-weak-deps: false
       packages:
         - steam
-        - kernel-modules-extra
 ...
