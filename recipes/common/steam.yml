@@ -5,8 +5,6 @@ repos:
   files:
     - https://negativo17.org/repos/fedora-steam.repo
 install:
-  packages:
-    - install-weak-deps: false
       packages:
         - steam
 ...
