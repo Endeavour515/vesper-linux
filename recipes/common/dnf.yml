@@ -33,7 +33,6 @@ install:
     # - nix
   
     # Desktop
-    - steam
 
 remove:
   auto-remove: true

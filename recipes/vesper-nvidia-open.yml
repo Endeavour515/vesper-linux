@@ -16,6 +16,7 @@ labels:
 # you can include multiple instances of the same module
 modules:
   - from-file: nvidia/os-release.yml
+  - from-file: common/steam.yml
   # - from-file: nvidia/akmods.yml
   - from-file: common/files.yml
   # - from-file: common/kargs.yml
