@@ -5,7 +5,7 @@ repos:
   files:
     - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
   keys:
-    - https://repos.fyralabs.com/terra44/key.asc
+    - https://repos.fyralabs.com/terra45/key.asc
 install:
   packages:
     # noctalia.dev
