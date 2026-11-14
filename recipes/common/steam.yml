@@ -4,6 +4,7 @@ type: dnf
 repos:
   nonfree: rpmfusion
 install:
-      packages:
-        - steam
+  install-weak-deps: false
+  packages:
+    - steam
 ...
