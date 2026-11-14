@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-v1.json
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-v2.json
 ---
 type: dnf
 repos:

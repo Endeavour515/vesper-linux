@@ -1,10 +1,11 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-v2.json
 ---
-type: dnf
-repos:
-  nonfree: rpmfusion
-install:
-  install-weak-deps: false
-  packages:
-    - steam
+  - type: dnf
+    repos:
+      files:
+        - https://negativo17.org/repos/fedora-steam.repo
+    install:
+      install-weak-deps: false
+      packages:
+        - steam
 ...
