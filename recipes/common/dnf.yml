@@ -4,37 +4,36 @@ type: dnf
 repos:
   files:
     - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
-    - https://negativo17.org/repos/fedora-steam.repo
   keys:
     - https://repos.fyralabs.com/terra45/key.asc
+  nonfree: rpmfusion
 install:
-  - install-weak-deps: false
-    packages:
-      # noctalia.dev
-      # Umbriel (Window Manager), Noctalia (Shell), and greeter
-      - umbriel-nightly
-      - noctalia
-      - noctalia-greeter
+  packages:
+    # noctalia.dev
+    # Umbriel (Window Manager), Noctalia (Shell), and greeter
+    - umbriel-nightly
+    - noctalia
+    - noctalia-greeter
 
-      # Utilities
-      - podman-compose
-      - podman-machine
-      - podman-tui
+    # Utilities
+    - podman-compose
+    - podman-machine
+    - podman-tui
 
-      # Terminal
-      - ghostty
-      - ghostty-fish-completion
-      - ghostty-nautilus
-      - ghostty-shell-integration
-      - ghostty-terminfo
-      - starship
-      - helix
-      - yazi
-      - lazygit
-      # - nix
-    
-      # Desktop
-      - steam
+    # Terminal
+    - ghostty
+    - ghostty-fish-completion
+    - ghostty-nautilus
+    - ghostty-shell-integration
+    - ghostty-terminfo
+    - starship
+    - helix
+    - yazi
+    - lazygit
+    # - nix
+  
+    # Desktop
+    - steam
 
 remove:
   auto-remove: true
