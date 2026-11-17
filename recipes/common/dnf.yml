@@ -19,6 +19,7 @@ install:
     - podman-compose
     - podman-machine
     - podman-tui
+    - fprintd-pam
 
     # Terminal
     - ghostty

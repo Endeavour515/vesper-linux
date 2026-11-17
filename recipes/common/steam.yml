@@ -10,5 +10,6 @@ install:
   install-weak-deps: false
   packages:
     - steam
+    - steam-devices
     - kernel-modules-extra
 ...
