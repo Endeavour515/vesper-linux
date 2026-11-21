@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/modules/os-release-v1.json
 ---
 type: akmods
-base: main # if not specified, classic "main" base is used by default
+base: bazzite # if not specified, classic "main" base is used by default
 install:
   - v4l2loopback
   - xone

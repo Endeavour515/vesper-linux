@@ -14,6 +14,13 @@ install:
     - umbriel-nightly
     - noctalia
     - noctalia-greeter
+    
+    # Secrets management
+    - git-credential-oo7
+    - oo7-daemon
+    - oo7-portal
+    - oo7-cli
+    - pam_oo7
 
     # Utilities
     - podman-compose
