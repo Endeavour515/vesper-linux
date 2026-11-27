@@ -4,8 +4,8 @@ type: dnf
 repos:
   files:
     - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
-  keys:
-    - https://repos.fyralabs.com/terra45/key.asc
+  # keys:
+    # - https://repos.fyralabs.com/terra45/key.asc
   nonfree: rpmfusion
 install:
   packages:
