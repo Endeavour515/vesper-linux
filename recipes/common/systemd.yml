@@ -6,6 +6,8 @@ system:
     - greetd.service
     - noctalia-greeter-setup.service
     - podman.socket
+    - nix-setup.service
+    - nix.mount
 user:
   enabled:
     - oo7-daemon.service

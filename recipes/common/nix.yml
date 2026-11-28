@@ -1,3 +1,6 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/script-v2.json
+---
 type: script
 scripts:
   - nix.sh # example: run files/scripts/myscript.sh
+...
