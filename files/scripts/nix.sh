@@ -5,7 +5,7 @@ set -ouex pipefail
 shopt -s nullglob
 
 dnf5 -y install nix nix-daemon
-curl -fsSL https://raw.githubusercontent.com/Zena-Linux/zix/refs/heads/main/zix | install -m 755 /dev/stdin /var/usrlocal/
+curl -fsSL https://raw.githubusercontent.com/Zena-Linux/zix/refs/heads/main/zix | install -m 755 /dev/stdin /usr/local/bin
 
 tar --create --verbose --preserve-permissions \
   --same-owner \
